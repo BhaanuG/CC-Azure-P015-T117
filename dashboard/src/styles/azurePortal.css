@@ -1,0 +1,124 @@
+﻿/* Clean Layout & Table System */
+
+.hp-header-bar {
+  background-color: var(--bg-header);
+  border-bottom: 1px solid var(--border-color);
+  padding: 16px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hp-title-area h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-main);
+  letter-spacing: -0.01em;
+  margin-top: 2px;
+}
+
+.hp-breadcrumb {
+  font-size: 0.75rem;
+  color: var(--accent-cyan);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.hp-metadata-strip {
+  display: flex;
+  gap: 20px;
+  background-color: #0c1220;
+  border-bottom: 1px solid var(--border-color);
+  padding: 10px 28px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  flex-wrap: wrap;
+}
+
+.hp-metadata-item strong {
+  color: var(--text-main);
+  margin-left: 4px;
+}
+
+.hp-section {
+  margin-bottom: 28px;
+}
+
+.hp-section-header {
+  margin-bottom: 14px;
+}
+
+.hp-section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  letter-spacing: -0.01em;
+}
+
+.hp-detail-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.85rem;
+  background-color: var(--bg-card);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+}
+
+.hp-detail-table th {
+  padding: 14px 18px;
+  color: var(--text-muted);
+  font-weight: 600;
+  background-color: #0f172a;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--border-color);
+  text-align: left;
+}
+
+.hp-detail-table td {
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-main);
+  text-align: left;
+  line-height: 1.5;
+}
+
+.hp-detail-table tr:last-child td {
+  border-bottom: none;
+}
+
+.hp-detail-table tr:hover td {
+  background-color: var(--bg-card-hover);
+}
+
+.az-banner-problem {
+  background: linear-gradient(135deg, rgba(2, 132, 199, 0.12) 0%, rgba(15, 23, 42, 0.6) 100%);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  border-left: 4px solid var(--primary-blue);
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin-bottom: 24px;
+}
+
+.az-banner-title {
+  color: var(--accent-cyan);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+}
+
+.az-banner-body {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+

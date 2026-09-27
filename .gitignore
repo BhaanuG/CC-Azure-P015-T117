@@ -1,0 +1,12 @@
+# Dependencies & Builds
+node_modules/
+dist/
+.env
+.env.local
+*.log
+
+# Secrets and Certificates
+*.secret
+*.key
+*.pem
+credentials.*
